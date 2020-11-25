@@ -5,6 +5,7 @@ Reserve Sonic es una plataforma digital donde se pueden realizar reservas de sal
 ## Version 1.0.1
 
 ## Screenshots
+![alt text](/screenshot.png)
 
 ## Herramientas utilizadas
 
