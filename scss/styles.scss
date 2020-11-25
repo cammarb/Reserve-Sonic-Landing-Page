@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$primary: #ff5d32;
+$primary-500: #ff896a;
+$primary-300: #ffc0af;
+$button-color: #c4a8fc;
+$black: #373737;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: #373737;
+}
+
+nav {
+  //min-height: 100px !important;
+  padding: 10px 5% 10px 5% !important;
+  .navbar_list {
+    a {
+      padding-left: 20px !important;
+    }
+  }
+  .o_btn {
+    background-color: $primary;
+    border-radius: 20px;
+    width: 130px;
+    a {
+      color: white !important;
+    }
+  }
+}
+
+.portada {
+  background-image: url("../img/portada.jpg");
+  background-size: 110vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15% !important;
+  margin: 0 !important;
+  width: 100%;
+  height: 110%;
+  h2 {
+    color: white;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.925);
+  }
+}
+
+.text_col {
+  span {
+    color: $primary;
+    font-style: italic;
+  }
+}
+
+.orange_span {
+  color: $primary;
+  font-style: italic;
+}
+
+//BUTTONSSS
+.o_btn_reg {
+  background-color: $primary;
+  border-radius: 20px;
+  width: 130px;
+  a {
+    color: white !important;
+  }
+}
+.p_btn_reg {
+  background-color: $button-color;
+  border-radius: 20px;
+  width: 130px;
+  a {
+    color: white !important;
+  }
+}
+
+.pasos {
+  li {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+}
+
+.studio_container {
+  img {
+    max-height: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.582);
+  }
+}
+.o_btn_reg_tuyo {
+  background-color: $button-color;
+  border-radius: 20px;
+  width: 200px;
+  a {
+    color: white !important;
+  }
+}
+
+.form-control {
+  border: 1px solid $primary-500 !important;
+  border-radius: 30px;
+}
+
+.footer_background {
+  background-color: black;
+  li {
+    color: white;
+    a {
+      color: white;
+      &:hover {
+        color: $primary;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.logo_footer {
+  max-height: 50px;
+}
+
+.team_container {
+  img {
+    max-width: 200px;
+  }
+}
+
+.orange_line {
+  width: 100%;
+  height: 4px;
+  background-color: $primary;
+}
+
+// MEDIA QUERIES FOR MOBILE PHONE
+@media only screen and (max-width: 425px) {
+  .portada {
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15% !important;
+    margin: 0 !important;
+    width: 100%;
+    height: 300px;
+    h2 {
+      font-size: 18px;
+    }
+  }
+}
